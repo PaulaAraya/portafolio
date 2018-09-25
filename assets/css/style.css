@@ -1,0 +1,82 @@
+header nav {
+  background: #5e02ff;
+  }
+ 
+  .btn:active:focus {
+    outline: 0;
+  }
+
+  #homePage {
+    background-color: #5e02ff;
+    padding-bottom:80px;
+    font-family:'Source Sans Pro', sans-serif;
+    height: 100vh;
+    color: white;
+  }
+
+  #btnPortafolio1 {
+    border:1px solid rgba(255,255,255,0.7);
+    border-radius:40px;
+    color:#ebeff1;
+    box-shadow:none;
+    text-shadow:none;
+    padding:.3rem .8rem;
+    background:transparent;
+    transition:background-color 0.25s;
+    outline:none;
+  }
+
+  .action-button:hover {
+    color:#fff;
+  }
+
+  .home {
+    padding-top: 70%; 
+  }
+
+  #homeAbout {
+    background-color: white;
+    padding-bottom:80px;
+    font-family:'Source Sans Pro', sans-serif;
+    height: 100vh;
+    color: rgba(0, 0, 0, 0.701);
+  }
+
+  #btnPortafolio2 {
+    border:1px solid #5e02ff;
+    border-radius:40px;
+    color: #5e02ff;
+    box-shadow:none;
+    text-shadow:none;
+    padding:.3rem .8rem;
+    background:transparent;
+    transition:background-color 0.25s;
+    outline:none;
+  }
+
+  .about {
+    padding-top: 15%;
+    padding-left: 15px ;
+    padding-right: 15px ;
+  }
+  
+  .aboutme {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  #proyectPage{
+    background-color: white;
+    padding-bottom:80px;
+    font-family:'Source Sans Pro', sans-serif;
+    height: 100vh;
+    color: rgba(0, 0, 0, 0.701);
+  }
+
+  #contactPage{
+    background-color: #5e02ff;
+    padding-bottom:80px;
+    font-family:'Source Sans Pro', sans-serif;
+    height: 100vh;
+    color: white;
+  }
