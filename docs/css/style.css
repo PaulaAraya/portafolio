@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+header nav {
+  background: #5e02ff;
+  }
+/*
+.container {
+  font-size: 1.5em;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-areas: 
+  "navbar";
+  grid-template-columns: 1fr;
+  grid-template-rows: 130px 800px 250px;
+}
+
+.navbar {
+  grid-area: navbar;
+  background: #5e02ff;
+  justify-content: center;
+  padding: 1em;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+nav li {
+  list-style: none;
+  padding: 1em 0;
+}
+
+nav li a{
+  
+  color: white;
+  font-weight: 700;
+  opacity: 0.6;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+nav li a:hover{
+  opacity: 1;
+}
+*/
+  #homePage {
+    background-color: #5e02ff;
+    padding-bottom:80px;
+    font-family:'Source Sans Pro', sans-serif;
+    height: 100vh;
+    color: white;
+  }
+
+  #btnPortafolio1 {
+    border:1px solid rgba(255,255,255,0.7);
+    border-radius:40px;
+    color:#ebeff1;
+    box-shadow:none;
+    text-shadow:none;
+    padding:.3rem .8rem;
+    background:transparent;
+    transition:background-color 0.25s;
+    outline:none;
+  }
+
+  .action-button:hover {
+    color:#fff;
+  }
+
+  .home {
+    padding-top: 70%; 
+  }
+
+  #homeAbout {
+    background-color: white;
+    padding-bottom:80px;
+    font-family:'Source Sans Pro', sans-serif;
+    height: 100vh;
+    color: rgba(0, 0, 0, 0.701);
+  }
+
+  #btnPortafolio2 {
+    border:1px solid #5e02ff;
+    border-radius:40px;
+    color: #5e02ff;
+    box-shadow:none;
+    text-shadow:none;
+    padding:.3rem .8rem;
+    background:transparent;
+    transition:background-color 0.25s;
+    outline:none;
+  }
+
+  .about {
+    padding-top: 15%;
+    padding-left: 15px ;
+    padding-right: 15px ;
+  }
+  
+  .aboutme {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  #proyectPage{
+    background-color: white;
+    padding-bottom:80px;
+    font-family:'Source Sans Pro', sans-serif;
+    height: 100vh;
+    color: rgba(0, 0, 0, 0.701);
+  }
+
+  #contactPage{
+    background-color: #5e02ff;
+    padding-bottom:80px;
+    font-family:'Source Sans Pro', sans-serif;
+    height: 100vh;
+    color: white;
+  }
+
+  /*
+  @media (main-width: 1040) {
+    .navbar{
+      
+    }
+  }*/
