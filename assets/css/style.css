@@ -63,6 +63,7 @@ header {
   font-weight: 300;
   text-transform: capitalize;
   letter-spacing: 0.09em;
+  padding-bottom: 10%;
 }
 
 .wrapper {
@@ -183,6 +184,38 @@ header {
   float: right;
 }
 
+.skills {
+  width: 100%;
+  background-color: white;
+  padding: 5% 0;
+  margin-top: 5%;
+  clear: both;
+}
+
+.skillContent h4 {
+  font-size: 1.875em;
+  padding: 1% 0;
+  color: #616569;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+.skills h5 {
+  font-size: 1.2em;
+  text-align: center;
+  color: #5e02ff;
+  font-weight: 300;
+  text-transform: capitalize;
+  letter-spacing: 0.09em;
+  margin: 0;
+}
+
+.skillContent a {
+  color: #5e02ff;
+  text-decoration: none;
+}
+
 .contact {
   width: 100%;
   background-color: #5e02ff;
@@ -190,7 +223,9 @@ header {
   margin-top: 5%;
   clear: both;
 }
-.contactContent {
+.contactContent,
+.skillContent
+ {
   max-width: 960px;
   margin: 0 auto;
   text-align: center;
@@ -239,7 +274,9 @@ footer {
 .credit {
   float: left;
 }
-.social {
+.social 
+.tools
+{
   align-content: center;
 }
 .social li {
@@ -251,14 +288,38 @@ footer {
   font-size: 1.8em;
   font-weight: 600;
 }
-.social li a:hover {
-  color: #5e02ff;
+.social li a:hover, 
+.tools li a:hover
+{
+  opacity: 0.8;
 }
+
+.tools {
+  align-content: center;
+}
+.tools li {
+  display: inline;
+}
+.tools li a {
+  color: white;
+  padding: 0.2em;
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+/*Iconos*/
 
 .icons{
   font-size: 35px;
   padding: 0 25px;
 }
+
+.iconsTools{
+  font-size: 40px;
+  padding: 0 25px;
+  color: #5e02ff;
+}
+
 
 
 @media only screen and (max-width:1000px) {
