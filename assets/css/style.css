@@ -101,19 +101,24 @@ header {
 .centerText{
   text-align : center;
   }  
+
+.proyect {
+  padding: 4%  0;
+  margin: 2% 0;
+}  
   
 .work {
   height: 300px;
-  padding: 2% 0;
+  margin: 2% 0;
 }
 .work h3 {
   padding: 1% 0;
+  font-size: 1.5em;
 }
 .textBox {
   float: left;
   text-align: left;
   width: 480px;
-  background-color: white;
   height: 100%;
 }
 .textBoxContent {
@@ -141,7 +146,7 @@ header {
   font-weight: 600;
   text-transform: uppercase;
   margin-top: 4%;
-  border-radius:40px;
+  border-radius:20px;
 }
 
 .btn:hover {
@@ -166,12 +171,20 @@ header {
   font-weight: 600;
   text-transform: uppercase;
   margin-top: 4%;
-  border-radius:40px;
+  border-radius:10px;
 }
-.button:hover {
+
+.cv{
+  color: #5e02ff;
+}
+
+.button:hover,
+.cv:hover {
   color: white;
   background-color: #5e02ff;
+  text-decoration:none;
 }
+
 .image-area {
   width: 480px;
   height: 300px;
@@ -194,8 +207,8 @@ header {
 
 .skillContent h4 {
   font-size: 1.875em;
-  padding: 1% 0;
-  color: #616569;
+  padding: 5% 0;
+  color: #797e82;
   font-weight: 600;
   letter-spacing: 0.04em;
   text-align: center;
@@ -204,7 +217,7 @@ header {
 .skills h5 {
   font-size: 1.2em;
   text-align: center;
-  color: #5e02ff;
+  color: #797e82;
   font-weight: 300;
   text-transform: capitalize;
   letter-spacing: 0.09em;
@@ -257,7 +270,7 @@ footer {
   padding: 2% 0;
   width: 100%;
   clear: both;
-  height: 100px;
+  height: 150px;
 }
 .footerContent {
   max-width: 960px;
@@ -316,11 +329,13 @@ footer {
 
 .iconsTools{
   font-size: 40px;
-  padding: 0 25px;
-  color: #5e02ff;
+  padding: 0 30px;
+  color: #797e82;
 }
 
-
+.page{
+  height: 100vh;
+}
 
 @media only screen and (max-width:1000px) {
   .wrapper {
@@ -358,6 +373,12 @@ footer {
     font-size: 1em;
     line-height: 2;
   }
+
+  .work h3 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+
   footer {
     height: 130px;
     line-height: 1.3em;
