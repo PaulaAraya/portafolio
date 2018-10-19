@@ -174,10 +174,6 @@ header {
   border-radius:10px;
 }
 
-.cv{
-  color: #5e02ff;
-}
-
 .button:hover,
 .cv:hover {
   color: white;
