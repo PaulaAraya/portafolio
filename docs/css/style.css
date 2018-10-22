@@ -41,7 +41,35 @@ header {
   height: 100vh;
 }
 
+#navbar {
+  background-color: rgba(255, 255, 255, 0.804); /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: -50px; /* Hide the navbar 50 px outside of the top view */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  height: 70px;
+}
 
+/* Style the navbar  */
+.contentNav{
+  padding: 20px;
+  text-align: center;
+}
+#navbar a {
+  align-content: center;
+  display: inline;
+  color: #5e02ff;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Page*/
 .intro {
   max-width: 960px;
   margin: 0 auto;
@@ -103,10 +131,15 @@ header {
   }  
 
 .proyect {
-  padding: 4%  0;
+  padding: 10%  0;
+  padding-top: 20%;
   margin: 2% 0;
 }  
-  
+
+.proyects{
+  height: 100vh;
+}
+
 .work {
   height: 300px;
   margin: 2% 0;
@@ -205,9 +238,10 @@ header {
 
 .skills {
   width: 100%;
+  height: 50vh;
   background-color: white;
-  padding: 5% 0;
-  margin-top: 5%;
+  padding: 15% 0;
+  margin: 5% 0;
   clear: both;
 }
 
@@ -334,7 +368,7 @@ footer {
 }
 
 .iconsTools{
-  font-size: 40px;
+  font-size: 50px;
   padding: 0 30px;
   color: #797e82;
 }
@@ -367,6 +401,16 @@ footer {
   }
 }
 @media only screen and (max-width:800px) {
+  #navbar a {
+    align-content: center;
+    display: inline;
+    font-size: 0.85em;
+    color: #5e02ff;;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+  }
+
   .intro h1 {
     font-size: 4em;
     line-height: 1.2;
@@ -409,4 +453,10 @@ footer {
     height: 100px;
     overflow: hidden;
   }  
+
+  .iconsTools{
+  font-size: 25px;
+  padding: 8px;
+  color: #797e82;
+  }
 }
