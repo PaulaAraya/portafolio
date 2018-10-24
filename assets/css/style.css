@@ -44,7 +44,7 @@ header {
 #navbar {
   background-color: rgba(255, 255, 255, 0.804); /* Black background color */
   position: fixed; /* Make it stick/fixed */
-  top: -50px; /* Hide the navbar 50 px outside of the top view */
+  top: -70px; /* Hide the navbar 50 px outside of the top view */
   width: 100%; /* Full width */
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
   height: 70px;

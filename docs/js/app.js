@@ -1,9 +1,13 @@
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     document.getElementById("navbar").style.top = "0";
   } else {
-    document.getElementById("navbar").style.top = "-50vh";
+    document.getElementById("navbar").style.top = "-70px";
   }
 }
+
+
+ScrollReveal().reveal('one', { delay: 500 });
+ScrollReveal().reveal('srollHide', { delay: 500 });
